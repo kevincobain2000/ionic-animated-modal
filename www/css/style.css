@@ -3,8 +3,8 @@
     animation-name:bounceOut;
 }
 .animated.modal.bounceInDown.ng-leave {
-    -webkit-animation-name:bounceOutDown;
-    animation-name:bounceOutDown;
+    -webkit-animation-name:bounceOutUp;
+    animation-name:bounceOutUp;
 }
 .animated.modal.bounceInLeft.ng-leave {
     -webkit-animation-name:bounceOutLeft;
@@ -15,8 +15,8 @@
     animation-name:bounceOutRight;
 }
 .animated.modal.bounceInUp.ng-leave {
-    -webkit-animation-name:bounceOutUp;
-    animation-name:bounceOutUp;
+    -webkit-animation-name:bounceOutDown;
+    animation-name:bounceOutDown;
 }
 
 .animated.modal.bounceOut.ng-leave {
