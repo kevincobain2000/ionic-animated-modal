@@ -139,8 +139,3 @@
     -webkit-animation-name:rollOut;
     animation-name:rollOut;
 }
-.animated.modal.rollOut.ng-leave {
-    -webkit-animation-name:rollOut;
-    animation-name:rollOut;
-}
-      </select>
