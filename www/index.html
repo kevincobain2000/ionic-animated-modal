@@ -7,6 +7,7 @@
     <title>Ionic Modal</title>
 
     <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
     <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
   
     <link href="css/style.css" rel="stylesheet">
@@ -16,41 +17,27 @@
   <body ng-controller="AppCtrl">
     
     <ion-header-bar class="bar-positive">
-      <h1 class="title">Contacts</h1>
-      <div class="buttons">
-        <button class="button button-icon ion-compose" ng-click="modal.show()">
-        </button>
-      </div>
+      <h1 class="title">Animate Modals</h1>
     </ion-header-bar>
     <ion-content>
       <ion-list>
-        <ion-item ng-repeat="contact in contacts">
-          {{contact.name}}
+        <ion-item ng-repeat="modalAnimation in modalAnimations" ng-click="showModal(modalAnimation.name)">
+          {{modalAnimation.name}}
         </ion-item>
       </ion-list>
     </ion-content>
-    
     <script id="templates/modal.html" type="text/ng-template">
       <ion-modal-view>
         <ion-header-bar class="bar bar-header bar-positive">
-          <h1 class="title">New Contact</h1>
-          <button class="button button-clear button-primary" ng-click="modal.hide()">Cancel</button>
+          <h1 class="title">Animate Css Modals</h1>
         </ion-header-bar>
         <ion-content class="padding">
           <div class="list">
-            <label class="item item-input">
-              <span class="input-label">First Name</span>
-              <input ng-model="newUser.firstName" type="text">
-            </label>
-            <label class="item item-input">
-              <span class="input-label">Last Name</span>
-              <input ng-model="newUser.lastName" type="text">
-            </label>
-            <label class="item item-input">
-              <span class="input-label">Email</span>
-              <input ng-model="newUser.email" type="text">
-            </label>
-            <button class="button button-full button-positive" ng-click="createContact(newUser)">Create</button>
+            How it works?
+            <a href="https://github.com/kevincobain2000/ionic-animated-modal" title="">
+              README https://github.com/kevincobain2000/ionic-animated-modal
+            </a>
+            <button class="button button-full button-positive" ng-click="hideModal()">CLOSE</button>
           </div>
         </ion-content>
       </ion-modal-view>

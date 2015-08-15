@@ -1,3 +1,10 @@
-body {
-  
+.animated.modal.bounceIn.ng-leave {
+   -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
 }
+
+.animated.modal.bounceInDown.ng-leave {
+   -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
+}
+
