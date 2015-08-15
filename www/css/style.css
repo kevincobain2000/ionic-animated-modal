@@ -96,14 +96,13 @@
     animation-name:rotateOutUpRight;
 }
 
-
 .animated.modal.slideInUp.ng-leave {
-    -webkit-animation-name:slideOutUp;
-    animation-name:slideOutUp;
-}
-.animated.modal.slideInDown.ng-leave {
     -webkit-animation-name:slideOutDown;
     animation-name:slideOutDown;
+}
+.animated.modal.slideInDown.ng-leave {
+    -webkit-animation-name:slideOutUp;
+    animation-name:slideOutUp;
 }
 .animated.modal.slideInLeft.ng-leave {
     -webkit-animation-name:slideOutLeft;
