@@ -17,7 +17,7 @@ https://daneden.github.io/animate.css/
 
 https://github.com/kevincobain2000/ionic-animated-modal/tree/master/www/css
 
-### Using a Modal
+### Using it
 
 
 #### HTML
@@ -51,5 +51,37 @@ https://github.com/kevincobain2000/ionic-animated-modal/tree/master/www/css
 
 #### List of Animations
 
+```
 bounceIn
 bounceInDown
+bounceInLeft
+bounceInRight
+bounceInUp
+fadeIn
+fadeInDown
+fadeInDownBig
+fadeInLeft
+fadeInLeftBig
+fadeInRight
+fadeInRightBig
+fadeInUp
+fadeInUpBig
+flipInX
+flipInY
+lightSpeedIn
+rotateIn
+rotateInDownLeft
+rotateInDownRight
+rotateInUpLeft
+rotateInUpRight
+slideInUp
+slideInDown
+slideInLeft
+slideInRight
+zoomIn
+zoomInDown
+zoomInLeft
+zoomInRight
+zoomInUp
+rollIn
+```
