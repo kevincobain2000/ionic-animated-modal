@@ -1,5 +1,7 @@
+
 ### DEMO
 
+![alt tag](animate.gif)
 
 http://codepen.io/kevincobain2000/pen/EjJzjx
 
