@@ -18,11 +18,15 @@
     
     <ion-header-bar class="bar-positive">
       <h1 class="title">Animate Modals</h1>
+      <div class="buttons">
+        <a href="https://github.com/kevincobain2000/ionic-animated-modal" class="button button-icon ion-social-github">
+        </a>
+      </div>
     </ion-header-bar>
     <ion-content>
       <ion-list>
-        <ion-item ng-repeat="modalAnimation in modalAnimations" ng-click="showModal(modalAnimation.name)">
-          {{modalAnimation.name}}
+        <ion-item ng-repeat="modalAnimation in modalAnimations" ng-click="showModal(modalAnimation)">
+          {{modalAnimation}}
         </ion-item>
       </ion-list>
     </ion-content>
@@ -33,11 +37,14 @@
         </ion-header-bar>
         <ion-content class="padding">
           <div class="list">
-            How it works?
+            <h3>How it works?</h3>
+
             <a href="https://github.com/kevincobain2000/ionic-animated-modal" title="">
               README https://github.com/kevincobain2000/ionic-animated-modal
             </a>
-            <button class="button button-full button-positive" ng-click="hideModal()">CLOSE</button>
+            <p>
+              <button class="button button-full button-positive" ng-click="hideModal()">CLOSE</button>
+            </p>
           </div>
         </ion-content>
       </ion-modal-view>

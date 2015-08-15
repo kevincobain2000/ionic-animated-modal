@@ -45,3 +45,9 @@ https://github.com/kevincobain2000/ionic-animated-modal/tree/master/www/css
     });
   };
 ```
+
+
+#### List of Animations
+
+bounceIn
+bounceInDown
