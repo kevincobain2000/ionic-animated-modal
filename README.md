@@ -1,3 +1,11 @@
+### I tweeted
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Animations work great with <a href="https://twitter.com/Ionicframework">@Ionicframework</a>&#39;s modals. Hooked many in 10 mins. So cool &#10;<a href="https://t.co/sCHtPOSAck">https://t.co/sCHtPOSAck</a> <a href="http://t.co/wvZV5bkJtr">pic.twitter.com/wvZV5bkJtr</a></p>&mdash; Kevin Cobain (@kevincobain2000) <a href="https://twitter.com/kevincobain2000/status/632367134643892224">August 15, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+https://twitter.com/kevincobain2000/status/632367134643892224
+
 
 ### DEMO
 
