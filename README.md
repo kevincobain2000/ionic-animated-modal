@@ -6,12 +6,17 @@
 
 https://twitter.com/kevincobain2000/status/632367134643892224
 
+### Personal favorite ``bounceIn``
 
-### DEMO
+I use that in my app. http://friendsapp.parseapp.com/
+
+### DEMO (codepen)
 
 ![alt tag](animate.gif)
 
 http://codepen.io/kevincobain2000/pen/EjJzjx
+
+## How TO
 
 ### Add Animate css
 
