@@ -28,7 +28,13 @@ https://daneden.github.io/animate.css/
 
 ### Copy Style.css
 
-https://github.com/kevincobain2000/ionic-animated-modal/tree/master/www/css
+
+```
+<link href="https://rawgit.com/kevincobain2000/ionic-animated-modal/master/www/css/style.css" rel="stylesheet">
+```
+
+Stylesheet is here = https://github.com/kevincobain2000/ionic-animated-modal/tree/master/www/css
+
 
 ### Using it
 
